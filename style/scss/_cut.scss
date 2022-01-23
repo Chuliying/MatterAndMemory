@@ -6,7 +6,7 @@
     height: 100%;
     opacity: 0;
     pointer-events: none;
-    >*{will-change: scroll-position;}
+    will-change: transform, opacaty;
     &.active {
         pointer-events: auto;
     }
@@ -16,11 +16,13 @@
         width: 100%;
         height: 100%;
         transform: perspective(150px) translateZ(0px);
+        will-change: transform, opacaty;
     }
 
     li {
         position: absolute;
         transform: perspective(150px) translateZ(0);
+        will-change: transform, opacaty;
         img {
             width: 100%;
         }
