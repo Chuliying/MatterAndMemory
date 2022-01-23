@@ -63,6 +63,7 @@ $(document).ready(function () {
     const $listBtn = $(".list-btn");
     const $lightbox = $(".concert-lightbox");
     const $locationLi = $(".location li");
+    const $mainCut = $('#main-cut');
     gsap.registerPlugin( ScrollToPlugin);
 
     $listBtn.click(function () {
@@ -140,16 +141,16 @@ $(document).ready(function () {
     function realFunc() {
       // do something...
       const scroll = $(window).scrollTop();
-      if (scroll < 3) {
-        $("#main-cut").css("display", "none");
-        $("#main-cut").delay(300).fadeIn(500);
-        window.scrollTo(0, 3.9 * _scrollValue);
-      }
+      // if (scroll < 3) {
+      //   $mainCut.css("display", "none");
+      //   $mainCut.delay(1100).fadeIn(500);
+      //   gsap.to(window, {duration: 0, scrollTo:3.98 * _scrollValue});
+      // }
 
       if (scroll > 3.99 * _scrollValue) {
-        $("#main-cut").css("display", "none");
-        $("#main-cut").delay(300).fadeIn(500);
-        window.scrollTo(0, 5);
+        $mainCut.css("display", "none");
+        $mainCut.delay(500).fadeIn(500);
+        gsap.to(window, {duration:0.01, scrollTo: 10});
       }
       ticking = false;
     }

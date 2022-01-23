@@ -6,6 +6,7 @@
     height: 100%;
     opacity: 0;
     pointer-events: none;
+    >*{will-change: scroll-position;}
     &.active {
         pointer-events: auto;
     }
