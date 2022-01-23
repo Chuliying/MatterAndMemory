@@ -1,0 +1,313 @@
+body {
+    background: rgba(230, 231, 232, 1);
+    height: 18600px;
+ 
+}  
+
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+   
+    .parallax-bg{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        >div{
+            border: solid 1px #000;
+            animation: float 4s ease-in-out infinite;
+            position: absolute;
+        }
+        // 最前面的
+        &:nth-child(1){
+            z-index: 3;
+            >div{
+                img{
+                    height: 200px;
+                }
+                &:nth-child(1){
+                    top: 55%;
+                    left: 2000px;
+                }
+                &:nth-child(2){
+                    top: 25%;
+                    left: 3500px;
+                }
+                &:nth-child(3){
+                    top: 30%;
+                    left: 400px;
+                    img{
+                        height: 350px;
+                    }
+                }
+                &:nth-child(4){
+                    top: 65%;
+                    left: 4000px;
+                }
+                &:nth-child(5){
+                    top: 19%;
+                    left: 2500px;
+                }
+                &:nth-child(6){
+                    top: 65%;
+                    left: 3300px;
+                }
+                &:nth-child(7){
+                    top: 5%;
+                    left: 5000px;
+                }
+                &:nth-child(8){
+                    top: 35%;
+                    left: 5500px;
+                }
+            }
+        }
+
+        // 靠後
+        &:nth-child(2){
+            z-index: 2;
+            img{
+                height: 125px;
+            }
+            >div{
+                animation: float 10s ease-in-out infinite;
+                &:nth-child(1){
+                    top: 15%;
+                    left: 80px;
+                }
+                &:nth-child(2){
+                    top: 25%;
+                    left: 3500px;
+                }
+                &:nth-child(3){
+                    top: 15%;
+                    left: 1300px;
+                }
+                &:nth-child(4){
+                    top: 65%;
+                    left: 4000px;
+                }
+                &:nth-child(5){
+                    top: 19%;
+                    left: 2500px;
+                }
+                &:nth-child(6){
+                    top: 65%;
+                    left: 3300px;
+                }
+                &:nth-child(7){
+                    top: 5%;
+                    left: 5000px;
+                }
+                &:nth-child(8){
+                    top: 35%;
+                    left: 5500px;
+                }
+            }
+        }
+        // 最後
+
+        &:nth-child(3){
+            z-index: 1;
+            
+            >div{
+                img{
+                    height: 70vh;
+                }
+                animation: float 30s ease-in-out infinite;
+                &:nth-child(1){
+                    top: 15%;
+                    left: 100%;
+                }
+            }
+        }
+
+        &:nth-child(4){
+            z-index: 4;
+            transform: translate(1500px, -150px);
+            >div{
+                img{
+                    height: 350px;
+                }
+                &:nth-child(1){
+                    top: 55%;
+                    left: 200px;
+                }
+                &:nth-child(2){
+                    top: 25%;
+                    left: 3500px;
+                }
+                &:nth-child(3){
+                    top: 15%;
+                    left: 1300px;
+                }
+                &:nth-child(4){
+                    top: 65%;
+                    left: 4000px;
+                }
+                &:nth-child(5){
+                    top: 19%;
+                    left: 2500px;
+                }
+                &:nth-child(6){
+                    top: 65%;
+                    left: 3300px;
+                }
+                &:nth-child(7){
+                    top: 5%;
+                    left: 5000px;
+                }
+                &:nth-child(8){
+                    top: 35%;
+                    left: 5500px;
+                }
+            }
+        }
+
+        &:nth-child(5){
+            z-index: 2;
+            transform: translate(800px, -150px);
+            >div{
+                img{
+                    height: 150px;
+                }
+                &:nth-child(1){
+                    top: 55%;
+                    left: 200px;
+                }
+                &:nth-child(2){
+                    top: 25%;
+                    left: 3500px;
+                }
+                &:nth-child(3){
+                    top: 15%;
+                    left: 1300px;
+                }
+                &:nth-child(4){
+                    top: 65%;
+                    left: 4000px;
+                }
+                &:nth-child(5){
+                    top: 19%;
+                    left: 2500px;
+                }
+                &:nth-child(6){
+                    top: 65%;
+                    left: 3300px;
+                }
+                &:nth-child(7){
+                    top: 5%;
+                    left: 5000px;
+                }
+                &:nth-child(8){
+                    top: 35%;
+                    left: 5500px;
+                }
+            }
+        }
+
+        &:nth-child(6){
+            z-index: 0;
+            >div{
+                animation: none;
+                bottom: 0%;
+                img{
+                    height: auto;
+                }
+                &:nth-child(1){
+                    right: -15%;
+                    z-index: -1;
+                    img{
+                        width: 30vw;
+                    }
+                }
+                &:nth-child(2){
+                    right: 5%;
+                    z-index: 1;
+                    img{
+                        width: 25vw;
+                    }
+                }
+                &:nth-child(3){
+                    left: -5px;
+                    img{
+                        width: 1200px;
+                    }
+                }
+                &:nth-child(2){
+                    right: 200px;
+                }
+            }
+        }
+
+
+    }
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(../../images/cutA/cutA-4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#layer-1{
+
+}
+
+#layer-2{
+
+}
+
+#layer-3{
+
+}
+
+#bg-3-4{
+    pointer-events: none;
+    height: 50px;
+    background-repeat: repeat-x;
+    background-size: 100% auto;
+    animation: wave 10s ease-in-out infinite;
+    >div{
+        
+       
+        img{
+            
+        }
+    }
+}
+
+
+@keyframes wave {
+	0% {
+        transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(-20px, 20px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+
+@keyframes float {
+	0% {
+        transform: translatey(0px) rotate(-1deg);
+	}
+	50% {
+		transform: translatey(-10px) rotate(3deg);
+	}
+	100% {
+		transform: translatey(0px) rotate(-1deg);
+	}
+}

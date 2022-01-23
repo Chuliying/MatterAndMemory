@@ -1,0 +1,227 @@
+#cut-1 {
+  transform: perspective(150px) translateY(200px) translateZ(-200px);
+  .clip {
+    li {
+      // 樹木
+      &:nth-child(1) {
+        right: -53%;
+        top: 0;
+        width: 90%;
+        min-width: 425px;
+        z-index: 5;
+      }
+      &:nth-child(2) {
+        top: 0;
+        left: -53%;
+        width: 90%;
+        min-width: 425px;
+        z-index: 5;
+      }
+
+      // 物件 part 1
+      &:nth-child(3) {
+        width: 35%;
+        top: 350px;
+        left: 10%;
+        z-index: 2;
+      }
+
+      &:nth-child(4) {
+        width: 32%;
+        top: 270px;
+        right: 10%;
+      }
+
+      &:nth-child(6) {
+        width: 33%;
+        z-index: 0;
+        top: 760px;
+        left: 10%;
+      }
+      &:nth-child(5) {
+        width: 31%;
+        top: 660px;
+        right: 10%;
+      }
+
+      //物件 part 2
+      &:nth-child(7) {
+        width: 22%;
+        top: 1590px;
+        right: 10%;
+      }
+
+      &:nth-child(8) {
+        width: 24%;
+        z-index: 0;
+        top: 1560px;
+        left: 28%;
+      }
+      &:nth-child(9) {
+        width: 29%;
+        top: 2080px;
+        right: 22%;
+      }
+      &:nth-child(10) {
+        width: 30%;
+        top: 1930px;
+        left: 18%;
+        z-index: 2;
+      }
+
+      // 物件 part 3
+      &:nth-child(11) {
+        width: 25%;
+        top: 1650px;
+        left: 9%;
+      }
+
+      &:nth-child(12) {
+        width: 35%;
+        z-index: 0;
+        top: 1650px;
+        left: 35%;
+      }
+      &:nth-child(13) {
+        width: 39%;
+        top: 1750px;
+        left: 22%;
+      }
+      &:nth-child(14) {
+        width: 40%;
+        top: 1800px;
+        right: 8%;
+        z-index: 2;
+      }
+      &:nth-child(15) {
+        width: 30%;
+        top: 1850px;
+        right: 8%;
+        z-index: 10;
+      }
+    }
+  }
+
+  .main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    width: 100%;
+    transform: perspective(150px) translateZ(-200px) translateY(2000px);
+    z-index: 10;
+
+    li {
+      // 腳
+      &:nth-child(1) {
+        left: 11%;
+        top: 31%;
+        width: 20%;
+        z-index: 6;
+      }
+      &:nth-child(2) {
+        top: 18%;
+        left: 9%;
+        width: 19%;
+        z-index: 4;
+      }
+      &:nth-child(3) {
+        width: 8%;
+        top: 15%;
+        left: 25%;
+        z-index: 5;
+      }
+
+      &:nth-child(4) {
+        width: 11%;
+        top: 79%;
+        left: 57%;
+        z-index: 11;
+      }
+
+      &:nth-child(5) {
+        z-index: 10;
+        width: 24%;
+        top: 75%;
+        left: 34%;
+      }
+
+      &:nth-child(6) {
+        width: 30%;
+        top: 68%;
+        left: 7%;
+        z-index: 11;
+      }
+      //物件 part 2
+      &:nth-child(7) {
+        width: 13%;
+        top: 18%;
+        left: 85%;
+      }
+
+      &:nth-child(8) {
+        width: 15%;
+        left: 67%;
+        z-index: 11;
+        top: 76%;
+      }
+      &:nth-child(9) {
+        width: 17%;
+        top: 76%;
+        left: 80%;
+      }
+      // TV
+      &:nth-child(10) {
+        width: 52%;
+        top: 17%;
+        left: 34%;
+        z-index: 5;
+      }
+
+      &:nth-child(11) {
+        width: 18%;
+        top: 10%;
+        left: 72%;
+      }
+
+      &:nth-child(12) {
+        width: 9%;
+        top: 20%;
+        left: 2.5%;
+        z-index: 10;
+      }
+      &:nth-child(13) {
+        width: 13%;
+        top: 47%;
+        left: 21%;
+      }
+      &:nth-child(14) {
+        width: 10%;
+        top: 3%;
+        left: 18%;
+      }
+      &:nth-child(15) {
+        width: 17%;
+        top: 4%;
+        left: 29%;
+      }
+      &:nth-child(16) {
+        width: 13%;
+        top: 42%;
+        left: 85%;
+      }
+      &:nth-child(17) {
+        width: 18%;
+        top: 3%;
+        left: 85%;
+        left: 58%;
+      }
+      &:nth-child(18) {
+        width: 9%;
+        top: 1%;
+        left: 49%;
+      }
+    }
+  }
+}

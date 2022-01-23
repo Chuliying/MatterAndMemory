@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFGCQZKEH1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FFGCQZKEH1');
+    </script>
+    <title>物的記憶 Matter And Memory</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style/css/main.css">
+    <meta name="description" content="《物的記憶：漫遊者劇場》由新北市政府文化局與再拒劇團策劃，邀請多位跨域藝術家共同創作數十個各自獨立又互相交織的影像、音樂與劇場文本，將整個城市當成線上博物館。">
+    <link rel="canonical" href="https://mattermemory.tw/">
+    <meta property="og:title" content="物的記憶 Matter And Memory" />
+    <meta property="og:description"
+        content="《物的記憶：漫遊者劇場》由新北市政府文化局與再拒劇團策劃，邀請多位跨域藝術家共同創作數十個各自獨立又互相交織的影像、音樂與劇場文本，將整個城市當成線上博物館。" />
+    <meta property="og:image" content="https://mattermemory.tw/images/socialshare-image.png" />
+    <meta property="og:url" content="https://mattermemory.tw/" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
+    <div id="overlay">
+        <div id="progstat"></div>
+        <div id="progress"></div>
+    </div>
+    <div class="bottom" id="bottom"></div>
+    <div class="bg-m" style="background-image: url('images/landing/landing-bg.png');">
+    </div>
+    <div class="wrapper">
+        <ul class="location">
+            <li>
+                <img src="images/cut-name-1.svg" alt="">
+            </li>
+            <li>
+                <img src="images/cut-name-2.svg" alt="">
+            </li>
+            <li>
+                <img src="images/cut-name-3.svg" alt="">
+            </li>
+            <li>
+                <img src="images/cut-name-4.svg" alt="">
+            </li>
+        </ul>
+        <div class="concert-lightbox">
+            <div class="remove-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px"
+                    y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                    <g>
+                        <path
+                            d="M990,85.6L914.4,10L500,424.4L85.6,10L10,85.6L424.4,500L10,914.4L85.6,990L500,575.6L914.4,990l75.6-75.6L575.6,500L990,85.6z" />
+                    </g>
+                </svg>
+            </div>
+            <ul>
+                <li>
+                    <figure class="video-responsive">
+                        <iframe width="560" id="youtube_player" class="yt_player_iframe" height="315"
+                            src="https://www.youtube.com/embed/zT3fWaDvhL4" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="video-responsive">
+                        <iframe width="560" id="youtube_player" class="yt_player_iframe" height="315"
+                            src="https://www.youtube.com/embed/hu3asNBSyzE" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="video-responsive">
+                        <iframe width="560" id="youtube_player" class="yt_player_iframe" height="315"
+                            src="https://www.youtube.com/embed/RJ-FXAz1iGU" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="video-responsive">
+                        <iframe width="560" id="youtube_player" class="yt_player_iframe" height="315"
+                            src="https://www.youtube.com/embed/EfGwi-roSyY" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <div id="YouTubeVideoPlayerAPI" class=""></div>
+        </div>
+        <div class="description">
+
+        </div>
+        <div class="header">
+            <a href="index.html">
+                <img src="images/logo.png" class="floating">
+            </a>
+            <div class="hamburger-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="description">
+                <h5>
+                    《物的記憶：漫遊者劇場》
+                </h5>
+                <div class="logo-box">
+                    <img src="images/logo.svg" alt="">
+                    <img src="images/logo-a.jpg" alt="">
+                </div>
+                <p>
+                    由新北市政府文化局與再拒劇團策劃，將新北市鶯歌陶瓷博物館、十三行博物館、淡水古蹟園區與黃金博物館周遭四個區域的民眾生活圖像，地方文化史與產業史，打造為可供民眾線上互動與體驗的「線上博物館」。該博物館不以展品的數位線上化作為標的，而是邀請多位跨域藝術家，從礦石、鐵軌、金斗甕等「物」的記憶與視角出發，將展品背後的「故事」轉化為數十個各自獨立又互相交織的影像、音樂與劇場文本。
+                </p>
+                <p>
+                    《物的記憶》將整個城市當成「博物館」展示的範疇，聚焦於博物館周遭的生活圖像與地景。觀眾在線上獨自體驗的旅程之中，透過滑鼠的上下滾動，即可移動於藝術家為鶯歌、瑞芳、淡水、八里重新打造的四個場景；民眾亦可自行將不同的影像、音樂與故事進行搭配，將這些關於地方史的記憶碎片重新組構，創造屬於自己的線上旅程。
+                </p>
+            </div>
+            <h5>
+                你可以在此看見所有素材
+            </h5>
+            <ul class="main-share">
+                <li>
+                    <a href="https://www.youtube.com/playlist?list=PLld_c-XAtpSIefMk4f3yPnOewLc8_VNDL" target="_blank">
+                        <div>
+                            <img src="images/menu-bg-3.png" class="floating">
+                            <h5>
+                                VIDEO
+                            </h5>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://soundcloud.com/against-again-troupe" target="_blank">
+                        <div>
+                            <img src="images/menu-bg-2.png">
+                            <h5>
+                                MUSIC
+                            </h5>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://against-again.medium.com/" target="_blank">
+                        <div>
+                            <img src="images/menu-bg-1.png">
+                            <h5>
+                                CONCEPT
+                            </h5>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="copyright">
+                <h5>
+                    CREDIT
+                </h5>
+                <ul>
+                    <li>
+                        <P>
+                            指導單位：文化部
+                        </P>
+                        <p>
+                            主辦單位：<br>
+                            <a href="https://www.culture.ntpc.gov.tw/" target="_blank">新北市文化局</a><br>
+                            <a href="https://www.ceramics.ntpc.gov.tw/" target="_blank">鶯歌陶瓷博物館</a><br>
+                            <a href="https://www.sshm.ntpc.gov.tw/" target="_blank">十三行博物館</a><br>
+                            <a href="https://www.tshs.ntpc.gov.tw/" target="_blank">淡水古蹟博物館</a><br>
+                            <a href="https://www.gep.ntpc.gov.tw/" target="_blank">黃金博物館</a>
+                        </p>
+                        <p>承辦單位：再拒劇團</p>
+                        <p>
+                            計畫主持人：黃思農<br>
+                            製作人：曾彥寧<br>
+                            執行製作：馮郁翎、羅尹如<br>
+                            影像初期概念發想：吳俊輝、黃思農
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            影像：唐健哲<br>
+                            文本：陳雅柔、黃亭瑋<br>
+                            音樂：曾韻方、謝杰廷、蔣韜<br>
+                            視覺設計：詹雨樹<br>
+                            網站設計：褚勵穎<br>
+                            音效設計：黃思農、曾韻方、謝杰廷、蔣韜<br>
+                            演員：王肇陽、余佩真、林奕碩、洪健藏、曾伯豪、曾韻方、黃鏡丞、黃緣文、黃思農、鮑奕安、潘韋勳、鄭尹真、賴玟君<br>
+                            創作協力研究員：江文馨、林倩聿、胡佩珊、馬紅綾<br>
+                            影像協力：林見彥、何孟學<br>
+                            場地協力：陳俊宇、鬼藝音樂工作室、國立政治大學傳播學院<br>
+                            鶯歌音樂會：udu製作 / 黑山窯、裝置協力 / 曾彥婷
+                            <br><br>
+                            特別感謝：吳朝潭、林一宏、林傳凱、吳智慶、趙宏宸、鄭春山、八里大營公廟、金瓜石金福宮、英文漢聲出版股份有限公司、國立傳統藝術中心、磅磅仔三府宮
+                        </p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="cut-landing">
+            <div class="main-logo">
+                <img src="images/landing/landing-logo.png" class="floating">
+            </div>
+            <ul class="bg-items">
+                <li class="layer-1 layer">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-29.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-30.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-31.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-28.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-3 layer">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-1.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-2.png" class="floating">
+                        </li>
+
+                        <li>
+                            <img src="images/landing/landing-3.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-4.png" class="floating">
+                        </li>
+
+                        <li>
+                            <img src="images/landing/landing-5.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-6.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-2 layer">
+                    <ul>
+                        <li>
+
+                            <img src="images/landing/landing-29.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-30.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-31.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-28.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-4 layer">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-7.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-8.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-9.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-10.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-11.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-12.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-13.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-5 layer">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-14.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-15.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-16.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-17.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-18.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-19.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-20.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-6 layer">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-21.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-22.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-23.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-24.png" class="floating">
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-25.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-7 floating">
+                    <ul>
+                        <li class="landing-btn" key="3">
+                            <a href="tamsui">
+                                <img src="images/landing/landing-33.png" class="floating">
+                            </a>
+                            <p>
+                                淡水 - 紅毛古蹟遺跡
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/landing/landing-34.png" class="floating">
+                        </li>
+                        <li class="landing-btn" key="0">
+                            <a href="jinshan">
+                                <img src="images/landing/landing-35.png" class="floating">
+                            </a>
+                            <p>
+                                瑞芳 - 黃金博物館
+                            </p>
+                        </li>
+                        <li class="landing-btn" key="2">
+                            <a href="bali">
+                                <img src="images/landing/landing-36.png" class="floating">
+                            </a>
+                            <p>
+                                八里 - 十三行博物館
+                            </p>
+                        </li>
+                        <li class="landing-btn" key="1">
+                            <a href="yingge">
+                                <img src="images/landing/landing-37.png" class="floating">
+                            </a>
+                            <p>
+                                鶯歌 - 陶瓷博物館
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="layer-8">
+                    <ul>
+                        <li>
+                            <img src="images/landing/landing-map.png" class="floating">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="left-list">
+                <div class="list-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                        x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000"
+                        xml:space="preserve">
+                        <g>
+                            <path
+                                d="M10.9,91.6h164.4v163.1H10.9V91.6z M258,91.6h732v163.1H258V91.6L258,91.6z M10,416.5h164.4v163.1H10V416.5z M257.2,416.5h731.9v163.1H257.2V416.5z M10,745.3h164.4v163.1H10V745.3z M257.2,745.3h732v163.1h-732V745.3z" />
+                        </g>
+                    </svg>
+                    <p>
+                        媒體列表
+                    </p>
+                </div>
+                <div class="media-list">
+                    <ul>
+                        <h5>
+                            瑞芳 - 黃金博物館
+                        </h5>
+                        <li data-type="concert" data-key="0">
+                        </li>
+
+                        <li data-type="video" data-key="3">
+                        </li>
+                        <li data-type="video" data-key="4">
+                        </li>
+                        <li data-type="video" data-key="5">
+                        </li>
+                        <li data-type="video" data-key="6">
+                        </li>
+                        <li data-type="video" data-key="1">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="video" data-key="2">
+                        </li>
+                        <li data-type="music" data-key="2">
+                        </li>
+                        <li data-type="music" data-key="3">
+                        </li>
+                        <li data-type="music" data-key="1">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="music" data-key="0">
+                        </li>
+                        <li data-type="voice" data-key="4">
+                        </li>
+                        <li data-type="voice" data-key="0">
+                        </li>
+                        <li data-type="voice" data-key="1">
+                        </li>
+                        <li data-type="voice" data-key="2">
+                        </li>
+                        <li data-type="voice" data-key="3">
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <h5>
+                            鶯歌 - 陶瓷博物館
+                        </h5>
+                        <li data-type="concert" data-key="7">
+                        </li>
+                        <li data-type="video" data-key="10">
+                        </li>
+                        <li data-type="video" data-key="13">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="video" data-key="8">
+                        </li>
+                        <li data-type="music" data-key="6">
+                        </li>
+                        <li data-type="music" data-key="5">
+                        </li>
+                        <li data-type="music" data-key="7">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="music" data-key="4">
+                        </li>
+                        <li data-type="voice" data-key="6">
+                        </li>
+                        <li data-type="voice" data-key="5">
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <h5>
+                            八里 - 十三行博物館
+                        </h5>
+                        <li data-type="concert" data-key="11">
+                        </li>
+                        <li data-type="video" data-key="13">
+                        </li>
+                        <li data-type="video" data-key="12">
+                        </li>
+                        <li data-type="video" data-key="15">
+                        </li>
+                        <li data-type="video" data-key="14">
+                        </li>
+                        <li data-type="video" data-key="16">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="video" data-key="17">
+                        </li>
+                        <li data-type="music" data-key="10">
+                        </li>
+                        <li data-type="music" data-key="8">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="music" data-key="9">
+                        </li>
+                        <li data-type="voice" data-key="11">
+                        </li>
+                        <li data-type="voice" data-key="7">
+                        </li>
+                        <li data-type="voice" data-key="12">
+                        </li>
+                        <li data-type="voice" data-key="8">
+                        </li>
+                        <li data-type="voice" data-key="9">
+                        </li>
+                        <li data-type="voice" data-key="10">
+                        </li>
+                    </ul>
+                    <ul>
+                        <h5>
+                            淡水 - 紅毛古蹟遺跡
+                        </h5>
+                        <li data-type="concert" data-key="18">
+                        </li>
+                        <li data-type="video" data-key="19">
+                        </li>
+                        <li data-type="video" data-key="20">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="video" data-key="21">
+                        </li>
+                        <li data-type="music" data-key="12">
+                        </li>
+                        <li data-type="music" data-key="13">
+                        </li>
+                        <li style="border-bottom: solid 1px #fff" data-type="music" data-key="11">
+                        </li>
+                        <li data-type="voice" data-key="15">
+                        </li>
+                        <li data-type="voice" data-key="14">
+                        </li>
+                        <li data-type="voice" data-key="13">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-description">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src='https://www.youtube.com/iframe_api'></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=7'></script>
+    <!-- <script src="js/media.js"></script> -->
+    <script src="js/main-m.js"></script>
+</body>
+
+</html>

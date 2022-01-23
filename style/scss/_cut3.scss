@@ -1,0 +1,169 @@
+#cut-3 {
+    transform: perspective(150px) translateZ(-0px);
+    .clip {
+        ul {
+            li {
+                bottom: 0;
+                bottom: 0;
+                left: 0;
+                img {
+                    width: auto;
+                    height: 100%;
+                }
+                &:nth-child(1) {
+                    left: 13%;
+                    height: 48%;
+                    z-index: 5;
+                    bottom: -20%;
+                }
+                &:nth-child(2) {
+                    left: 42%;
+                    height: 27%;
+                    z-index: 4;
+                    bottom: 10%;
+                }
+                &:nth-child(3) {
+                    left: 0%;
+                    height: 32%;
+                    z-index: 3;
+                    bottom: -1%;
+                }
+
+                &:nth-child(4) {
+                    left: 0;
+                    height: 35%;
+                    bottom: 15%;
+                    z-index: 2;
+                }
+
+                &:nth-child(5) {
+                    left: 10%;
+                    height: 57%;
+                    z-index: 1;
+                    bottom: 15%;
+                }
+            }
+        }
+    }
+
+    .main {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+        height: 100%;
+        width: 100%;
+        transform: perspective(150px) translateZ(-200px) translateY(2000px);
+        z-index: 10;
+
+        li {
+            &:nth-child(1) {
+                left: 79%;
+                top: 38%;
+                width: 17%;
+                z-index: 3;
+            }
+
+            &:nth-child(2) {
+                top: 63%;
+                left: 70%;
+                width: 18.5%;
+                z-index: 7;
+            }
+            &:nth-child(3) {
+                width: 12%;
+                top: 30%;
+                left: 3%;
+                z-index: 6;
+            }
+
+            &:nth-child(4) {
+                width: 40%;
+                top: 65%;
+                left: 35%;
+                z-index: 6;
+            }
+
+            &:nth-child(5) {
+                width: 17%;
+                top: 50%;
+                left: 7%;
+                z-index: 6;
+            }
+
+            &:nth-child(6) {
+                width: 21%;
+                top: 72%;
+                left: 22%;
+                z-index: 5;
+            }
+            &:nth-child(7) {
+                width: 9%;
+                top: 25%;
+                left: 73%;
+                z-index: 2;
+            }
+
+            &:nth-child(8) {
+                width: 12%;
+                left: 77.5%;
+                top: 10%;
+            }
+            &:nth-child(9) {
+                width: 48%;
+                top: 12.5%;
+                left: 22.5%;
+                z-index: 3;
+            }
+            &:nth-child(10) {
+                width: 10%;
+                top: 4%;
+                left: 68%;
+            }
+
+            &:nth-child(11) {
+                width: 10%;
+                top: 35%;
+                left: 14%;
+                z-index: 1;
+            }
+
+            &:nth-child(12) {
+                width: 11%;
+                top: 6%;
+                left: 12%;
+            }
+            &:nth-child(13) {
+                width: 13%;
+                top: 47%;
+                left: 21%;
+            }
+            &:nth-child(14) {
+                width: 10%;
+                top: 3%;
+                left: 18%;
+            }
+            &:nth-child(15) {
+                width: 17%;
+                top: 4%;
+                left: 29%;
+            }
+            &:nth-child(16) {
+                width: 13%;
+                top: 42%;
+                left: 85%;
+            }
+            &:nth-child(17) {
+                width: 18%;
+                top: 3%;
+                left: 85%;
+                left: 58%;
+            }
+            &:nth-child(18) {
+                width: 9%;
+                top: 1%;
+                left: 49%;
+            }
+        }
+    }
+}
